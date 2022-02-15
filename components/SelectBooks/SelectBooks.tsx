@@ -1,16 +1,8 @@
 import React, { useState } from 'react';
 import * as S from './SelectBooks.style';
 import Fade from 'react-reveal/Fade';
-import Reveal from 'react-reveal/Reveal';
 
 const SelectBooks = () => {
-  const [hidden, setHidden] = useState(true);
-  const isMount = () => {
-    setTimeout(() => {
-      setHidden(false);
-    }, 2000);
-  };
-  isMount();
   return (
     <S.Wrapper>
       <S.Container>
@@ -21,9 +13,7 @@ const SelectBooks = () => {
           </S.TitleContainer>
           <S.ItemContainer>
             <S.Item>
-              {hidden === false && (
-                <S.Check src="images/SelectBooks/firstCheck.gif" alt="check" />
-              )}
+              <S.Check src="images/SelectBooks/firstCheck.gif" alt="check" />
               <S.Book src="images/SelectBooks/firstBook.png" alt="book" />
             </S.Item>
             <S.Item>
