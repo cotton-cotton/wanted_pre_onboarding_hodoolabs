@@ -13,7 +13,7 @@ export const Wrapper = styled.div`
   padding: 150px 0px;
 `;
 
-export const Title = styled.h1`
+export const Title = styled.h1<{ isActive: boolean }>`
   font-size: 50px;
   font-weight: 700;
   margin-bottom: 100px;
