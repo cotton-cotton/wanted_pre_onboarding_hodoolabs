@@ -1,5 +1,13 @@
 import styled from 'styled-components';
 
+interface Props {
+  ref: any;
+  style: {
+    opacity: number;
+    transform: string;
+  };
+}
+
 export const Container = styled.div`
   background-color: #f9f9f9;
 `;
@@ -13,7 +21,7 @@ export const Wrapper = styled.div`
   padding: 150px 0px;
 `;
 
-export const Title = styled.h1<{ isActive: boolean }>`
+export const Title = styled.h1<Props>`
   font-size: 50px;
   font-weight: 700;
   margin-bottom: 100px;

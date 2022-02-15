@@ -1,21 +1,8 @@
-import { useEffect, useState } from 'react';
 import * as S from './CouponSection.style';
 
 import { useScrollFadeIn } from '../../hooks/useScrollFadein';
 
 const CouponSection = () => {
-  // const [scrollY, setScrollY] = useState(0);
-
-  // const handleScrollY = () => {
-  //   setScrollY(window.scrollY);
-  // };
-
-  // console.log(scrollY);
-
-  // useEffect(() => {
-  //   window.addEventListener('scroll', handleScrollY);
-  //   return () => handleScrollY();
-  // });
   const animatedItem = useScrollFadeIn();
   return (
     <S.Container>

@@ -1,9 +1,8 @@
-import React, { useState } from 'react';
+import React from 'react';
 import * as S from './BookList.style';
 import BookSlider from './BookSlider';
 
 const BookList = () => {
-  const [detail, setDetail] = useState({});
   return (
     <S.Wrapper>
       <S.Container>

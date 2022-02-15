@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React from 'react';
 import * as S from './LiveBookClass.style';
 import Fade from 'react-reveal/Fade';
 
