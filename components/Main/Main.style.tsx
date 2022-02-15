@@ -11,7 +11,7 @@ export const Background = styled.div``;
 export const BackgroundImg = styled.img`
   position: absolute;
   top: 0;
-  left: 300px;
+  left: 200px;
   width: 100%;
 `;
 export const Star = styled.img`
