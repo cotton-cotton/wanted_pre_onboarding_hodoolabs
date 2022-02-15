@@ -18,4 +18,10 @@ export const Title = styled.h1`
   font-size: 50px;
   color: white;
 `;
-export const Description = styled.img``;
+export const Description = styled.span`
+  font-size: 20px;
+  line-height: 30px;
+  text-align: center;
+  color: white;
+  white-space: pre-wrap;
+`;
