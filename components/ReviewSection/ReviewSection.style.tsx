@@ -22,12 +22,6 @@ export const Img = styled.img`
   width: 100%;
 `;
 
-export const Btn = styled.div`
-  width: 32px;
-  height: 32px;
-  cursor: pointer;
-`;
-
 export const ReviewWrap = styled.div`
   flex: 0.5;
   display: flex;
@@ -38,17 +32,18 @@ export const ReviewWrap = styled.div`
 
 export const ProfileGroup = styled.div`
   position: relative;
+  top: 150px;
 `;
 
 export const AnimationImg = styled.div`
   position: absolute;
   top: -1px;
   left: -48px;
-  width: 137px;
+  width: 157px;
 `;
 
 export const ProfileImg = styled.div`
-  width: 90px;
+  width: 120px;
   z-index: 100;
 `;
 
