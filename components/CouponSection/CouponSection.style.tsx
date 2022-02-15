@@ -76,7 +76,7 @@ export const DashedLine = styled.div`
   left: 660px;
   width: 2px;
   height: 368px;
-  background-image: url('/images/dashedLine.png');
+  background-image: url('/images/CouponSection/dashedLine.png');
   z-index: 10;
 `;
 
@@ -115,7 +115,7 @@ export const btnArrow = styled.div`
   height: 10px;
   top: 33px;
   left: 100px;
-  background-image: url('/images/polygon.png');
+  background-image: url('/images/CouponSection/polygon.png');
   background-size: contain;
   background-repeat: no-repeat;
   z-index: 11;

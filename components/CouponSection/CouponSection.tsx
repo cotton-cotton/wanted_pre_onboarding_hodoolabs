@@ -6,10 +6,13 @@ const CouponSection = () => {
       <S.Wrapper>
         <S.Title>지금 다운로드 받으세요!</S.Title>
         <S.Coupon>
-          <S.CouponImg src="/images/couponImg.png" alt="couponimg" />
+          <S.CouponImg
+            src="/images/CouponSection/couponImg.png"
+            alt="couponimg"
+          />
           <S.LeftSide>
             <S.Logo>
-              <S.Img src="/images/couponLogo.png" />
+              <S.Img src="/images/CouponSection/couponLogo.png" />
             </S.Logo>
             <S.CouponTitle>
               책을 보는
@@ -27,7 +30,8 @@ const CouponSection = () => {
               <S.btnArrow />
             </S.btnAlert>
             <S.DownloadBtn>
-              <S.BtnImage src="/images/downloadBtn.png" />앱 다운로드 하기
+              <S.BtnImage src="/images/CouponSection/downloadBtn.png" />앱
+              다운로드 하기
             </S.DownloadBtn>
           </S.RightSide>
         </S.Coupon>
