@@ -1,14 +1,17 @@
 import * as S from './DailySection.style';
+import Fade from 'react-reveal/Fade';
 
 const DailySection = () => {
   return (
     <S.Container>
       <S.Wrapper>
-        <S.Title>
-          매일 매일
-          <br />
-          알아서 기록하는 독서 일기
-        </S.Title>
+        <Fade bottom>
+          <S.Title>
+            매일 매일
+            <br />
+            알아서 기록하는 독서 일기
+          </S.Title>
+        </Fade>
         <S.SubTitle>
           오늘은 아이가 어떤 책을 읽었는지, 어떤 활동에 참여했는지 독서일기를
           통해 확인해보세요.
