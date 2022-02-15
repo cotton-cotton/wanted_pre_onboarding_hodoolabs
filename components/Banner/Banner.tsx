@@ -1,5 +1,5 @@
 import * as S from './Banner.style';
-import Fade from 'react-reveal/Reveal';
+import Fade from 'react-reveal/Fade';
 
 const Banner = () => {
   return (
