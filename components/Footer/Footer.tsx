@@ -26,10 +26,10 @@ const Footer = () => {
           </S.Content>
           <S.SocialWrap>
             <S.SocialCircle>
-              <S.SocialImg src="/images/instagram.png" />
+              <S.SocialImg src="/images/FooterSection/instagram.png" />
             </S.SocialCircle>
             <S.SocialCircle>
-              <S.SocialImg src="/images/blog.png" />
+              <S.SocialImg src="/images/FooterSection/blog.png" />
             </S.SocialCircle>
           </S.SocialWrap>
         </S.RightSide>
