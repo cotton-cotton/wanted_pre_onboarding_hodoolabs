@@ -55,8 +55,8 @@ export const Line = styled.span`
 `;
 export const Star = styled.img`
   position: absolute;
-  top: 280px;
-  right: 1520px;
+  top: 270px;
+  left: 360px;
 `;
 export const Banner = styled.h1`
   position: absolute;
@@ -74,6 +74,6 @@ export const UnderLine = styled.h1`
 `;
 export const Rectangle = styled.img`
   position: absolute;
-  bottom: -23px;
+  bottom: -300px;
   left: 1250px;
 `;
