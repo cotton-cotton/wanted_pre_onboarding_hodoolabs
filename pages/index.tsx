@@ -1,13 +1,8 @@
 import type { NextPage } from 'next';
-import styled from 'styled-components';
+import CouponSection from '../components/CouponSection/CouponSection';
 
 const Home: NextPage = () => {
-  return <Container>home</Container>;
+  return <CouponSection />;
 };
-
-const Container = styled.div`
-  width: 400px;
-  background-color: red;
-`;
 
 export default Home;
