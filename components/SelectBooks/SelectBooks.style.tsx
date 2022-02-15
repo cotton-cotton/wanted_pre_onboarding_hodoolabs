@@ -5,12 +5,14 @@ export const Wrapper = styled.div`
   justify-content: center;
   align-items: center;
   height: 647px;
+  background-color: #f9f9f9;
 `;
 export const Container = styled.div`
   display: flex;
+  justify-content: center;
+  align-items: center;
   width: 1150px;
-  height: 80%;
-  margin-top: 100px;
+  margin: 0 auto;
 `;
 export const TitleContainer = styled.div`
   margin-left: 20px;
@@ -33,8 +35,7 @@ export const SubTitle = styled.h4`
 export const ItemContainer = styled.div`
   display: flex;
   justify-content: space-evenly;
-  width: 60%;
-  margin: 20px 0 0 80px;
+  width: 600px;
 `;
 export const Item = styled.span`
   display: flex;

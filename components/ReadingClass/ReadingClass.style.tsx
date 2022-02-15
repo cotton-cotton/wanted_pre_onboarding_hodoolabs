@@ -13,7 +13,7 @@ export const Container = styled.div`
   align-items: center;
   width: 1150px;
   height: 80%;
-  margin-left: 200px;
+  margin: 0 auto;
 `;
 export const TitleContainer = styled.div`
   display: flex;

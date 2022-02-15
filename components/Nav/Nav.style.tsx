@@ -23,7 +23,6 @@ export const TitleLogo = styled.img`
 `;
 export const Title = styled.h1`
   margin-left: 20px;
-  color: white;
   font-size: 20px;
   font-weight: 600;
 `;
@@ -34,7 +33,6 @@ export const ListContainer = styled.div`
   width: 60%;
 `;
 export const List = styled.span`
-  color: white;
   font-size: 20px;
   font-weight: 600;
 `;

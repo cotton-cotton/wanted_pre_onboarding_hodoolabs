@@ -14,6 +14,10 @@ export const Container = styled.div`
   top: 100px;
   right: 475px;
   display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 1150px;
+  margin: 0 auto;
 `;
 export const Description = styled.span`
   display: flex;
@@ -35,11 +39,14 @@ export const SubTitle = styled.h4`
   line-height: 30px;
   white-space: pre-wrap;
 `;
+export const ScreenContainer = styled.div`
+  display: flex;
+  justify-content: center;
+  align-items: center;
+`;
 export const Screen = styled.img``;
 export const Video = styled.video`
   position: absolute;
-  top: 26px;
-  right: 23px;
   width: 700px;
   height: 525px;
   border-radius: 20px;
