@@ -31,6 +31,7 @@ export const SubTitle = styled.span`
 export const ContentWrap = styled.div`
   display: flex;
   align-items: center;
+  margin-bottom: 150px;
 `;
 
 export const CenterPhone = styled.img`

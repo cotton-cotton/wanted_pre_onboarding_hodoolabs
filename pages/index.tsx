@@ -19,8 +19,8 @@ const Home: NextPage = () => {
       <LiveBookClass />
       <SelectBooks />
       <ReadingClass />
-      <BookList />
       <DailySection />
+      <BookList />
       <FeatureSection />
       <ReviewSection />
       <CouponSection />
