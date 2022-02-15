@@ -57,3 +57,96 @@ export const REVIEW_LIST = [
       '밖에가서 놀고싶어도 땅콩할 시간이야!라는 말에 군말없이 들어와 착석하는 마법같은 시간.. 줄 줄 책을 읽고 생각 말하라고 하는게 아니라, 재미있게 대화하며 반응하며 읽고, 생각을 말하게 해준다. 월, 화, 수, 목 네 권의 책을 읽었던 것을 다양한 활동으로 키워드를 통해 확실하게 기억할 수 있도록 해주는 금요일 Fun Day의 다지기 활동이 엄마로서 제일 마음에 든다!',
   },
 ];
+
+export const BOOK_LIST_DATA = [
+  {
+    id: 1,
+    src: '/images/BookList/bookImg_1.png',
+    alt: 'book-img',
+  },
+  {
+    id: 2,
+    src: '/images/BookList/bookImg_2.png',
+    alt: 'book-img',
+  },
+  {
+    id: 3,
+    src: '/images/BookList/bookImg_3.png',
+    alt: 'book-img',
+  },
+  {
+    id: 4,
+    src: '/images/BookList/bookImg_4.png',
+    alt: 'book-img',
+  },
+  {
+    id: 5,
+    src: '/images/BookList/bookImg_5.png',
+    alt: 'book-img',
+  },
+  {
+    id: 6,
+    src: '/images/BookList/bookImg_6.png',
+    alt: 'book-img',
+  },
+  {
+    id: 7,
+    src: '/images/BookList/bookImg_7.png',
+    alt: 'book-img',
+  },
+  {
+    id: 8,
+    src: '/images/BookList/bookImg_8.png',
+    alt: 'book-img',
+  },
+  {
+    id: 9,
+    src: '/images/BookList/bookImg_9.png',
+    alt: 'book-img',
+  },
+  {
+    id: 10,
+    src: '/images/BookList/bookImg_1.png',
+    alt: 'book-img',
+  },
+  {
+    id: 11,
+    src: '/images/BookList/bookImg_2.png',
+    alt: 'book-img',
+  },
+  {
+    id: 12,
+    src: '/images/BookList/bookImg_3.png',
+    alt: 'book-img',
+  },
+  {
+    id: 13,
+    src: '/images/BookList/bookImg_4.png',
+    alt: 'book-img',
+  },
+  {
+    id: 14,
+    src: '/images/BookList/bookImg_5.png',
+    alt: 'book-img',
+  },
+  {
+    id: 15,
+    src: '/images/BookList/bookImg_6.png',
+    alt: 'book-img',
+  },
+  {
+    id: 16,
+    src: '/images/BookList/bookImg_7.png',
+    alt: 'book-img',
+  },
+  {
+    id: 17,
+    src: '/images/BookList/bookImg_8.png',
+    alt: 'book-img',
+  },
+  {
+    id: 18,
+    src: '/images/BookList/bookImg_9.png',
+    alt: 'book-img',
+  },
+];

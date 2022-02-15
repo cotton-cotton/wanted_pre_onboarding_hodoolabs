@@ -4,7 +4,7 @@ import Slider from 'react-slick';
 import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';
 
-import { SlickData } from './SlickData';
+import { BOOK_LIST_DATA } from '../../shared/constants';
 
 function BookSlider() {
   const settings = {
@@ -21,8 +21,8 @@ function BookSlider() {
   return (
     <Container>
       <StyledSlider {...settings}>
-        {SlickData &&
-          SlickData.map(({ id, src, alt }) => {
+        {BOOK_LIST_DATA &&
+          BOOK_LIST_DATA.map(({ id, src, alt }) => {
             return <SliderImg key={id} alt={alt} src={src} />;
           })}
       </StyledSlider>
