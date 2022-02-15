@@ -1,6 +1,5 @@
 import type { NextPage } from 'next';
 
-import styled from 'styled-components';
 import Main from '../components/Main/Main';
 import Banner from '../components/Banner/Banner';
 import LiveBookClass from '../components/LiveBookClass/LiveBookClass';

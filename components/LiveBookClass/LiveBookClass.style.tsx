@@ -1,23 +1,18 @@
-import { EDEADLK } from 'constants';
 import styled from 'styled-components';
 
 export const Wrapper = styled.div`
-  position: relative;
-  height: 873px;
   background-image: url('images/LiveBookClass/stripeBackground.png');
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center center;
 `;
 export const Container = styled.div`
-  position: absolute;
-  top: 100px;
-  right: 475px;
   display: flex;
   justify-content: center;
   align-items: center;
   width: 1150px;
   margin: 0 auto;
+  padding: 150px 0;
 `;
 export const Description = styled.span`
   display: flex;
