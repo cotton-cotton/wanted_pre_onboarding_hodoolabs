@@ -1,17 +1,23 @@
-import styled from 'styled-components';
+import styled, { keyframes } from 'styled-components';
 
 export const Wrapper = styled.div`
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  width: 1920px;
   height: 573px;
   background-color: #ffb100;
 `;
+export const Container = styled.div`
+  display: flex;
+  flex-direction: column;
+  width: 1150px;
+  margin: 0 auto;
+  text-align: center;
+`;
 export const Logo = styled.img`
-  width: 10%;
-  margin-top: -20px;
+  width: 15%;
+  margin: -10px 0 20px 0;
 `;
 export const Title = styled.h1`
   margin-bottom: 50px;
