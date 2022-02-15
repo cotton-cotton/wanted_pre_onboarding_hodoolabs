@@ -1,4 +1,4 @@
-import styled from 'styled-components';
+import styled, { keyframes } from 'styled-components';
 
 export const Container = styled.div`
   position: relative;
@@ -41,9 +41,23 @@ export const Banner = styled.h1`
 export const UnderLine = styled.span`
   border-bottom: 5px solid #ffbe50;
 `;
+
+const upDown = keyframes`
+  0% {
+  bottom:30px;
+  }
+  50% {
+    bottom: 60px;
+  }
+  100% {
+    bottom: 30px;
+  }
+`;
+
 export const Rectangle = styled.img`
   position: absolute;
   width: 50px;
   bottom: 30px;
   left: 50%;
+  animation: ${upDown} 1.5s infinite ease-in-out alternate;
 `;
